@@ -24,5 +24,10 @@ module.exports = {
         warnings: true
       }
     })
-  ]
+  ],
+  resolve: {
+        alias: {
+            'react': 'react-buffer',
+        }
+    }
 }

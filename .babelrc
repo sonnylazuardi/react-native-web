@@ -5,6 +5,9 @@
     "react"
   ],
   "plugins": [
-    "transform-decorators-legacy"
+    "transform-decorators-legacy",
+    ["module-alias", [
+      { "src": "npm:react-buffer", "expose": "react" }
+    ]]
   ]
 }
